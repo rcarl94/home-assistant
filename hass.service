@@ -1,0 +1,14 @@
+[Unit]
+Description=Home Assistant
+After=network.target zwave.service
+
+[Service]
+ExecStart=/home/pi/.local/bin/pipenv run hass
+WorkingDirectory=/home/pi/home_assistant
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

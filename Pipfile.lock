@@ -1,0 +1,22 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "10cfe20dea94fd743a7b16e5d179bef48ad6596b4e3a7bbb7e227ed602d2c6f6"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "homeassistant": "*"
+    },
+    "develop": {}
+}

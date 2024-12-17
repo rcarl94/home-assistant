@@ -1,0 +1,6 @@
+Flood Testing
+- Water: 254 -> 2 -> 0
+- Alarm Level: 0 -> 3 -> 0
+
+Movement Testing
+- Movement: 254 -> 3 -> 0
